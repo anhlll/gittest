@@ -206,7 +206,6 @@ public class ChiTietSanPhamRepository {
                 n.setMasp(rs.getString(2));
                 n.setTensp(rs.getString(3));
                 list.add(n);
-
             }
         } catch (Exception e) {
             e.printStackTrace();
